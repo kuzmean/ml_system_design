@@ -4,15 +4,19 @@
 
 ## Структура проекта
 
-ml_system_desing/
--
-- **/docs/**                        # **Папка с документацией проекта**
--    **ml_system_design_doc.md**   # **Документация проекта**
--    **product_schema.png**        # **Блок-схема решения**
-- **README.md**                     # **Основная информация о проекте**
-- **pre-commit-config.yaml**        # **Конфигурация pre-commit**
-- **pyproject.toml**                # **Конфигурационный файл**
-- **requirements.txt**              # **Зависимости проекта**
+> # ml_system_desing/
+> 
+> **/docs/**                        # **Папка с документацией проекта**   
+> > **ml_system_design_doc.md**   # **Документация проекта**  
+> > **product_schema.png**        # **Блок-схема решения**
+> 
+> **/notebooks/**                        # **Папка с ноутбуками**   
+> > **EDA.ipynb**   # **Ноутбук с разведочным анализом данных**  
+>  
+> **README.md**                     # **Основная информация о проекте**  
+> **pre-commit-config.yaml**        # **Конфигурация pre-commit**  
+> **pyproject.toml**                # **Конфигурационный файл**  
+> **requirements.txt**              # **Зависимости проекта**  
 
 
 
@@ -25,14 +29,14 @@ ml_system_desing/
 
 ### 1. Клонировать репозиторий:
 
-git clone https://github.com/kuzmean/ml_system_desing.git
+git clone https://github.com/kuzmean/ml_system_desing.git    
 cd ml_system_desing
 
 ### 2. Создать виртуальное окружение:
 
-python -m venv venv
-.\venv\Scripts\activate  # Для Windows
-source venv/bin/activate  # Для macOS/Linux
+python -m venv venv    
+.\venv\Scripts\activate  # Для Windows   
+source venv/bin/activate  # Для macOS/Linux   
 
 ### 3. Установить зависимости:
 
@@ -54,7 +58,7 @@ pre-commit install
 
 Проект использует инструменты для автоматического линтинга и форматирования кода:
 
-    Black для форматирования.
-    Ruff для линтинга.
+    Black для форматирования.   
+    Ruff для линтинга.   
 
-Эти инструменты настроены через pre-commit хуки и будут автоматически запускаться при каждом коммите для поддержания качества кода.
+Эти инструменты настроены через pre-commit хуки и будут автоматически запускаться при каждом коммите для поддержания качества кода.   
